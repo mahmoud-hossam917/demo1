@@ -10,4 +10,8 @@ public class TestController {
     public String getDemo(){
         return "this is demo";
     }
+    @GetMapping("demo2")
+    public String getDemo2(){
+        return "this is demo2";
+    }
 }
