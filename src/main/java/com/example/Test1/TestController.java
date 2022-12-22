@@ -10,7 +10,7 @@ public class TestController {
     public String getDemo(){
         return "this is demo";
     }
-    @GetMapping("demo4")
+    @GetMapping("demo5")
     public String getDemo2(){
         return "this is demo2";
     }
